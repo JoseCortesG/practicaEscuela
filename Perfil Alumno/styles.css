@@ -24,11 +24,12 @@ html,body{
 #cabecera{
     width:100%;
     height: 15%;
-    background-color: #e41515;
+    background-color: #ac0a0a;
     display: flex;
     flex-direction: row;
     justify-content:end;
     align-items: center;
+   
 }
 
 #nombre{
@@ -36,20 +37,29 @@ html,body{
     justify-content: center;
     width: 90%;
     color: white;
-    margin-left: 20%;
+    margin-left: 23%;
+    font-size: 160%;
    
 }
 
 #perfil{
     display: flex;
-    width: 10%;
+    width: 15%;
     height: 100%;
+    margin-right: 7%;
     display: flex;
-  
+    justify-content: center;
+    align-items: center;
+ 
+ 
 }
 
+
+
 #perfil img{
-    width: 100%;
+    width: 70%;
+    height: 90%;
+    opacity: 90%;
 }
 
 
@@ -65,9 +75,11 @@ html,body{
     height: 100%;
     padding: 50px 0;
     box-sizing: border-box;
-    background-color: #e41515;
+    background-color: #817c7c;
     display: flex;
     flex-flow: column nowrap;
+ 
+   
    
     position: absolute;
     transition: .5s;  
@@ -79,13 +91,13 @@ html,body{
     width: 100%;
     position: absolute;
     display: flex;
-    height: 60%;
+    height: 45%;
    
 }
 nav ul{
     display: flex;
     width: 100%;
-    
+   
     flex-direction: column;
 }
 
@@ -93,9 +105,9 @@ nav ul li{
     display: flex;
     height: 100%;
     align-items: center;
-  
-    
-  
+ 
+   
+ 
 
 }
 
@@ -109,10 +121,10 @@ nav a{
 
  width: 100%;
  height: 100%;
-} 
+}
 
 nav ul li:hover {
-    background-color:  #670707;
+    background-color:  #ac0a0a;;
     transition-property: all;
   transition-duration: 0.5s;
   transition-timing-function: linear;
@@ -122,7 +134,7 @@ nav ul li:hover {
 
 .side-menu label{
     top:0;
-    margin-top: 20px;
+    margin-top: 33px;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -137,6 +149,7 @@ nav ul li:hover {
     text-align: center;
     font-size: 10px;
     border-radius: 0 10px 10px 0;
+   
 }
 #side-menu-switch{
     position: absolute;
@@ -159,29 +172,236 @@ nav ul li:hover {
 
 #notas{
     width: 100%;
-    background-color: #fff;
-    height: 85%;
+    background-color: #ffffff;
+    height: 75%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
+    justify-content: start;
 }
 
 #tabla{
-    background-color: #555 ;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 50%;
-    height: 60%;
-    margin-left: 20%;
-    
+    height: 70%;
+    margin-left: 27%;
+    margin-top: 6%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   
+   
+   
 }
 
 .fila{
-    margin: 1px;
-    width: 100%;
-    background-color: #555 ;
+    width:100%;
+ 
 }
- .par{
-    background-color: #ccc;
+
+ 
+
+
+.primera{
+
+    height: 25%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+}
+
+.primera div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    height: 100%;
+    background-color: #313030;
+    margin: 1px;
+   
+    color:#fff;
+
+}
+
+.segunda{
+    height: 25%;
+    background-color: #fff;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+}
+
+.segunda div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    height: 100%;
+    margin: 1px;
+    background-color: #e6e4e4;
+}
+
+
+
+
+.tercera{
+    height: 25%;
+    background-color: #fff;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+}
+
+.tercera div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    height: 100%;
+    background-color: #c4bfbf;
+    margin: 1px;
+
+}
+
+
+
+
+.cuarta{
+    height: 25%;
+    background-color: #fff;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+}
+
+.cuarta div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    height: 100%;
+    background-color: #e6e4e4;
+    margin: 1px;
+
+}
+
+ #caja{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap:  wrap;
+    margin-left: 6%;
+    margin-top: 6%;
+   
+    width: 10%;
+    height: 70%;
+   
+ 
  }
+
+#media{
+    display: flex;
+    display: row;
+    flex-wrap: wrap;
+    margin-top: 9%;
+    width: 100%;
+    height: 50%;
+    margin-bottom: 3px;
+    justify-content: center;
+    align-items: start;
+   
+   
+}
+ 
+#media div:first-child{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ac0a0a;
+    width: 90%;
+    height: 20%;
+    border-radius: 5px;
+}
+
+#media div:last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(214, 210, 208);
+    width: 80%;
+    height: 60%;
+    border-radius: 90%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   
+}
+
+
+
+
+#porcentaje{
+    display: flex;
+    display: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50%;
+
+ 
+    justify-content: center;
+    align-items: start;
+   
+   
+
+}
+
+#porcentaje div:first-child{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    border-radius: 5px;
+    background-color: #ac0a0a;
+    width: 90%;
+    height: 20%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#porcentaje div:last-child{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(214, 210, 208);
+    width: 80%;
+    height: 60%;
+    border-radius: 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+footer{
+    width: 100%;
+    height: 10%;
+    background-color: #ffffff;
+
+    display:flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+}
+
+footer div{
+    display: flex;
+    justify-content: space-around;
+   
+    margin-left: 5%;
+    width: 40%;
+    height: 60%;
+    background-color: #d3c9c9;
+    border-radius: 10px;
+    opacity: 90%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+
+}

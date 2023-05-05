@@ -6,6 +6,7 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css" />
 </head>
 
@@ -13,7 +14,7 @@
     <main id="container">
         <header id="cabecera">
            
-            <div ID="nombre">
+            <div id="nombre">
                 <h1>JOSE CORTES GIMENEZ</h1>
             </div>
             <div id="perfil"> <img src="../imagenesEcuela/usuario.png" </div>
@@ -30,7 +31,7 @@
                     <li> <a href="#">PERFIL</a></li>
                 </ul>
             </nav>
-            <label for="side-menu-switch">
+            <label for="side-menu-switch" onclick="toggle();">
                 <div class="linea-menu"></div>
                 <div class="linea-menu"></div>
                 <div class="linea-menu"></div>
@@ -43,9 +44,9 @@
         <div id="notas">
             <div id=tabla>
                 <div class="fila primera">
-                    <div>Año</div>
                     <div>CURSO</div>
                     <div>ASIGNATURA</div>
+                    <div>AÑO</div>
 
                 </div>
                 <div class="fila segunda">
@@ -67,7 +68,7 @@
                     <div>a</div>
                 </div>
 
-0
+
 
             </div>
 
@@ -98,8 +99,8 @@
         </div>
 
 
-        <footer>
-            <nav>
+        <footer id="footer">
+            <nav id="menu-footer">
               <ul>
                   <li><a href="../notificaciones/index.html"><img src="../imagenesEcuela/alert-26.png" />  </a></li>
                   <li><a><img src="../imagenesEcuela/home.png" />  </a></li>
@@ -120,7 +121,64 @@
 
 
 
-    <script src="java.js" async defer></script>
+    <script>
+        //
+        
+        function toggle() {
+  var contenido = document.getElementById("tabla");
+  if (contenido.style.width === "65%") {
+    contenido.style.width = "45%";
+  } else {
+    contenido.style.width = "65%";
+  }
+
+  if (contenido.style.marginLeft === "10%") {
+    contenido.style.marginLeft = "26%";
+  } else {
+    contenido.style.marginLeft = "10%";
+  }
+
+  if (contenido.style.marginTop === "5%") {
+    contenido.style.marginTop = "7%";
+  } else {
+    contenido.style.marginTop = "5%";
+  }
+
+
+
+
+  if (contenido.style.height === "75%") {
+    contenido.style.height = "65%";
+  } else {
+    contenido.style.height = "75%";
+  }
+
+
+
+
+  var contenido = document.getElementById("menu-footer");
+  if (contenido.style.marginRight === "13%") {
+    contenido.style.marginRight = "3%";
+  } else {
+    contenido.style.marginRight = "13%";
+  }
+
+  var contenido = document.getElementById("nombre");
+  if (contenido.style.marginRight === "15%") {
+    contenido.style.marginRight = "7%";
+  } else {
+    contenido.style.marginRight = "15%";
+  }
+
+
+
+
+  
+
+
+
+}
+    </script>
 </body>
 
 </html>

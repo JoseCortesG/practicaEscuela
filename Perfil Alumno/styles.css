@@ -36,21 +36,24 @@ html,body{
 #nombre{
     display: flex;
     justify-content: center;
-    width: 90%;
+    
+    width: 88%;
     color: white;
-    margin-left: 23%;
-    font-size: 160%;
+    margin-right: 15%;
+    font-size: 140%;
+    transition: .5s;  
    
 }
 
 #perfil{
     display: flex;
-    width: 15%;
-    height: 100%;
-    margin-right: 7%;
+    width: 12%;
+    height: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top:0;
  
  
 }
@@ -178,21 +181,28 @@ html,body{
     display: flex;
     align-items: start;
     justify-content: start;
+
 }
 
 #tabla{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 50%;
-    height: 70%;
-    margin-left: 27%;
-    margin-top: 6%;
+    width: 65%;
+    height: 65%;
+    margin-left: 10%;
+    margin-top: 7%;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-   
-   
-   
+    transition: .5s;    
+    opacity: 95%;
 }
+
+#tabla:hover{
+    opacity: 100%;
+    
+}
+
+
 
 .fila{
     width:100%;
@@ -294,13 +304,13 @@ html,body{
     align-items: center;
     flex-direction: row;
     flex-wrap:  wrap;
-    margin-left: 8%;
+    position: absolute;
+    right: 0;
     margin-top: 3%;
-    
-   
+    margin-right: 5%;
     width: 10%;
-    height: 100%;
-    z-index: 1000;
+    height: 70%;
+    z-index: 1;
 
  }
 
@@ -312,9 +322,9 @@ html,body{
     right: 0;
     opacity: 20%;
     z-index: 0;
-    
+   
 
-    
+   
    
  }
 
@@ -327,11 +337,15 @@ html,body{
     height: 50%;
     margin-bottom: 3px;
     justify-content: center;
-    align-items: start;
-   
+    align-items: start   
+}
+
+#media:hover{
+    width: 170%;
    
 }
- 
+
+
 #media div:first-child{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     display: flex;
@@ -354,13 +368,16 @@ html,body{
     flex-wrap: wrap;
     width: 100%;
     height: 50%;
-
- 
     justify-content: center;
     align-items: start;
    
    
 
+}
+
+#porcentaje:hover{
+    width: 170%;
+   
 }
 
 #porcentaje div:first-child{
@@ -378,10 +395,11 @@ html,body{
 
 
 
-footer{
+#footer{
     width: 100%;
     height: 10%;
     background-color: #ffffff;
+
 
     display:flex;
     flex-direction: row;
@@ -389,25 +407,30 @@ footer{
     justify-content: center;
 }
 
-footer nav{
+#menu-footer{
     display: flex;
     justify-content: space-around;
     flex-wrap: nowrap;
     align-self: start;
     border-radius: 5px;
-   
-    margin-left: 2%;
+    margin-right: 13%; 
     width: 40%;
     height: 60%;
     background-color: #787171;
     border-radius: 10px;
     opacity: 80%;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-   
-
-
+    transition: .5s;  
+    opacity: 50%;
+    z-index: 0;
+    
 }
-footer nav ul{
+
+
+#menu-footer:hover{
+    opacity: 80%;
+}
+#footer nav ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -417,7 +440,7 @@ footer nav ul{
 
 }
 
-footer nav ul li{
+#footer nav ul li{
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -427,17 +450,18 @@ footer nav ul li{
 
 }
 
-footer nav ul li a{
+#footer nav ul li a{
     display: flex;
     justify-content: center;
 }
 
-footer nav ul li a img{
+#footer nav ul li a img{
     width: 28%;
+    z-index: 1;
 }
 
-footer nav ul li a img:hover{
-    width: 3%;
+#footer nav ul li a img:hover{
+    width: 33%;
 }
 
 
@@ -446,72 +470,23 @@ footer nav ul li a img:hover{
 
 
 /*PRIMER CIRCULO*/
+
 @keyframes progress {
     0% { --percentage: 0; }
     100% { --percentage: var(--value); }
   }
-  
+ 
   @property --percentage {
     syntax: '<number>';
     inherits: true;
     initial-value: 0;
   }
-  
-  [role="progressbar"] {
-    --percentage: var(--value);
-    --primary: #369;
-    --secondary: #adf;
-    --size: 150px;
-    animation: progress 2s 0.5s forwards;
-    width: var(--size);
-    aspect-ratio: 1;
-    border-radius: 50%;
-    position: relative;
-    overflow: hidden;
-    display: grid;
-    place-items: center;
-  }
-  
-  [role="progressbar"]::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: conic-gradient(var(--primary) calc(var(--percentage) * 1%), var(--secondary) 0);
-    mask: radial-gradient(white 55%, transparent 0);
-    mask-mode: alpha;
-    -webkit-mask: radial-gradient(#0000 55%, #000 0);
-    -webkit-mask-mode: alpha;
-  }
-  
-  [role="progressbar"]::after {
-    counter-reset: percentage var(--value);
-    content: counter(percentage) '%';
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: calc(var(--size) / 5);
-    color: var(--primary);
-  }
-
-  /*SEGUNDO CIRCULO*/
-  
-  @keyframes progress {
-    0% { --percentage: 0; }
-    100% { --percentage: var(--value); }
-  }
-  
-  @property --percentage {
-    syntax: '<number>';
-    inherits: true;
-    initial-value: 0;
-  }
-  
+ 
   [role="progreso"] {
     --percentage: var(--value);
     --primary: #369;
     --secondary: #adf;
-    --size: 150px;
+    --size: 200px;
     animation: progress 2s 0.5s forwards;
     width: var(--size);
     aspect-ratio: 1;
@@ -521,7 +496,7 @@ footer nav ul li a img:hover{
     display: grid;
     place-items: center;
   }
-  
+ 
   [role="progreso"]::before {
     content: "";
     position: absolute;
@@ -535,18 +510,18 @@ footer nav ul li a img:hover{
     -webkit-mask: radial-gradient(#0000 55%, #000 0);
     -webkit-mask-mode: alpha;
   }
-  
+ 
   [role="progreso"]::after {
     counter-reset: percentage var(--value);
-    content: counter(percentage) ;
+    content:"9";
     font-family: Helvetica, Arial, sans-serif;
     font-size: calc(var(--size) / 5);
     color: var(--primary);
-  } 
+  }
 
 
 
-  
+ 
   #circulo {
     z-index: 2;
     display: block;
@@ -559,12 +534,12 @@ footer nav ul li a img:hover{
     border-radius: 50% / 11%;
     transition: transform 0.5s;
   }
-  
+ 
   #circulo:hover,
   #circulo:focus {
     transform: scale(1.1);
   }
-  
+ 
   #circulo::before {
     content: "";
     display: block;
@@ -576,7 +551,7 @@ footer nav ul li a img:hover{
     background: red;
     border-radius: 9% / 50%;
   }
-  
+ 
   #circulo::after {
     content: "";
     display: block;
@@ -589,7 +564,7 @@ footer nav ul li a img:hover{
     box-sizing: border-box;
     border-left: 30px solid white;
   }
-  
+ 
   #circulo span {
     font-size: 0;
     position: absolute;
@@ -597,10 +572,60 @@ footer nav ul li a img:hover{
     height: 0;
     overflow: hidden;
   }
+
+    /*SEGUNDO CIRCULO*/
+
+@keyframes progress {
+    0% { --percentage: 0; }
+    100% { --percentage: var(--value); }
+  }
+ 
+  @property --percentage {
+    syntax: '<number>';
+    inherits: true;
+    initial-value: 0;
+  }
+ 
+  [role="progressbar"] {
+    --percentage: var(--value);
+    --primary: #369;
+    --secondary: #adf;
+    --size: 200px;
+    animation: progress 2s 0.5s forwards;
+    width: var(--size);
+    aspect-ratio: 1;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+  }
+ 
+  [role="progressbar"]::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: conic-gradient(var(--primary) calc(var(--percentage) * 1%), var(--secondary) 0);
+    mask: radial-gradient(white 55%, transparent 0);
+    mask-mode: alpha;
+    -webkit-mask: radial-gradient(#0000 55%, #000 0);
+    -webkit-mask-mode: alpha;
+  }
+ 
+  [role="progressbar"]::after {
+    counter-reset: percentage var(--value);
+    content: counter(percentage) '%';
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: calc(var(--size) / 5);
+    color: var(--primary);
+  }
+
+
+ 
   
-
-
-
-
+ 
 
 

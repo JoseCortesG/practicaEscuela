@@ -493,7 +493,7 @@ html,body{
     --percentage: var(--value);
     --primary: #369;
     --secondary: #adf;
-    --size: 200px;
+    --size: 300px;
     animation: progress 2s 0.5s forwards;
     width: var(--size);
     aspect-ratio: 1;
@@ -520,7 +520,7 @@ html,body{
  
   [role="progreso"]::after {
     counter-reset: percentage var(--value);
-    content:"9";
+    content:"9.0";
     font-family: Helvetica, Arial, sans-serif;
     font-size: calc(var(--size) / 5);
     color: var(--primary);

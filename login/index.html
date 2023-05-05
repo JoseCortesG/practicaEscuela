@@ -23,8 +23,8 @@
 
         </div>
 
-        <div id="foto">
-            <img src="../imagenesEcuela/usuario.png" />
+        <div id="foto" >
+            <img id="fperfil" src="../imagenesEcuela/usuario.png"  onclick="toggle ()" ;/>
 
         </div>
 
@@ -46,15 +46,41 @@
             </div>
         </form>
 
-        <div id="botones" class="col-12">
+        <div  id="botones" class="col-12">
 
             <button id="enviar" class="btn " type='submit'>Log In</button>
-            <button id="recordar" class="btn " type='reset'>Recordar Contraseña</button>
+            <button id="recordar" class="btn " type='reset'>Recordar </button>
         </div>
         
     </section>
 
-    <script src="" async defer></script>
+    <script >
+        function toggle() {
+    var contenido = document.getElementById("container");
+    if (contenido.style.backgroundColor === "rgb(125, 125, 125)") {
+      contenido.style.backgroundColor = "#303131";
+    } else {
+      contenido.style.backgroundColor = "rgb(125, 125, 125)";
+    }
+
+    var contenido = document.getElementById("login");
+    if (contenido.style.background === "rgba(47, 123, 161, 0.12)") {
+      contenido.style.background= "rgba(56, 106, 130, 0.12)";
+    } else {
+      contenido.style.background = "rgba(47, 123, 161, 0.12)";
+    }
+
+ 
+
+
+  }
+
+  //function refreshPage(){
+   // window.location.reload();} 
+
+
+
+    </script>
 </body>
 
 </html>

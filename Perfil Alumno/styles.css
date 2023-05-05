@@ -39,7 +39,7 @@ html,body{
     
     width: 88%;
     color: white;
-    margin-right: 15%;
+    margin-right: 7%;
     font-size: 140%;
     transition: .5s;  
    
@@ -54,6 +54,7 @@ html,body{
     align-items: center;
     position: absolute;
     top:0;
+    margin-right: 4%;
  
  
 }
@@ -188,13 +189,19 @@ html,body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 65%;
+    width: 45%;
     height: 65%;
-    margin-left: 10%;
+    margin-left: 26%;
     margin-top: 7%;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     transition: .5s;    
-    opacity: 95%;
+    opacity: 90%;
+    overflow: auto;
+}
+
+#tabla::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 0;
 }
 
 #tabla:hover{
@@ -413,7 +420,7 @@ html,body{
     flex-wrap: nowrap;
     align-self: start;
     border-radius: 5px;
-    margin-right: 13%; 
+    margin-right: 3%; 
     width: 40%;
     height: 60%;
     background-color: #787171;

@@ -1,69 +1,95 @@
-body{
-    padding-top:4.2rem;
-    padding-bottom:4.2rem;
-    background:rgba(0, 0, 0, 0.76);
-    }
-    a{
-     text-decoration:none !important;
-     }
-     h1,h2,h3{
-     font-family: 'Kaushan Script', cursive;
-     }
-      .myform{
-    position: relative;
-    display: -ms-flexbox;
+html, body {  
+    margin:0px;  
+    height:100%;  
+   
+
+  } 
+
+
+
+  #container{
+  
+    width:100%;
+    height:100%;
     display: flex;
-    padding: 1rem;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    width: 100%;
-    pointer-events: auto;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid rgba(0,0,0,.2);
-    border-radius: 1.1rem;
-    outline: 0;
-    max-width: 500px;
-     }
-     .tx-tfm{
-     text-transform:uppercase;
-     }
-     .mybtn{
-     border-radius:50px;
-     }
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(149, 143, 143);
+    opacity: 98%;
+  
+    z-index: 0;
     
-     .login-or {
-     position: relative;
-     color: #aaa;
-     margin-top: 10px;
-     margin-bottom: 10px;
-     padding-top: 10px;
-     padding-bottom: 10px;
-     }
-     .span-or {
-     display: block;
-     position: absolute;
-     left: 50%;
-     top: -2px;
-     margin-left: -25px;
-     background-color: #fff;
-     width: 50px;
-     text-align: center;
-     }
-     .hr-or {
-     height: 1px;
-     margin-top: 0px !important;
-     margin-bottom: 0px !important;
-     }
-     .google {
-     color:#666;
-     width:100%;
-     height:40px;
-     text-align:center;
-     outline:none;
-     border: 1px solid lightgrey;
-     }
-      form .error {
-     color: #ff0000;
-     }
-     #second{display:none;}
+  }
+
+ 
+
+  #login{
+    background-color: black;
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-radius: 20%;
+  
+
+    height: 70%;
+    width: 25%;
+    z-index: 0;
+    opacity: 30%;
+    
+
+  }
+
+
+  #foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    top:0;
+    z-index: 1;
+    margin-top: 10%;
+   
+  }
+
+  #foto img{
+    width: 50%;
+    height: 90%;
+  }
+
+  #formulario{
+    padding: 2%;
+    position: absolute;
+    width: 20%;
+    height: 40%;
+    margin-top: 15%;
+   
+    z-index: 1;
+       
+  }
+
+  #botones{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+  }
+
+  #enviar{
+    background-color: rgb(167, 158, 158);
+    width: 30%;
+    height: 60%;
+  }
+
+  #recordar{
+    background-color: rgb(194, 28, 28);
+    width: 50%;
+  }
+
+
+  

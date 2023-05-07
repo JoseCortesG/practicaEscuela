@@ -4,173 +4,216 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <main id="container">
-        <header id="cabecera">
-           
-            <div id="nombre">
-                <h1>JOSÉ CORTÉS GIMÉNEZ</h1>
+      <header id="cabecera">
+        <div id="nombre">
+          <h1>JOSÉ CORTÉS GIMÉNEZ</h1>
+        </div>
+        <div id="perfil"><img src="../imagenesEcuela/usuario.png" /></div>
+      </header>
+
+      <input type="checkbox" name="" id="side-menu-switch" />
+
+      <div class="side-menu">
+        <nav id="menuflex">
+          <ul>
+            <li><a href="../login/index.html">LOG IN</a></li>
+            <li><a href="#">INICIO</a></li>
+            <li><a href="#">PERFIL</a></li>
+          </ul>
+        </nav>
+        <label id="primera-etiqueta" for="side-menu-switch" onclick="toggle();">
+          <div class="linea-menu"></div>
+          <div class="linea-menu"></div>
+          <div class="linea-menu"></div>
+        </label>
+        <label
+          id="segunda-etiqueta"
+          for="side-menu-switch"
+          onclick="segundotoggle();"
+        >
+          <div class="linea-menu"></div>
+          <div class="linea-menu"></div>
+          <div class="linea-menu"></div>
+        </label>
+
+        <label
+          id="tercera-etiqueta"
+          for="side-menu-switch"
+          onclick="tercertoggle();"
+        >
+          <div class="linea-menu"></div>
+          <div class="linea-menu"></div>
+          <div class="linea-menu"></div>
+        </label>
+        <label
+          id="cuarta-etiqueta"
+          for="side-menu-switch"
+          onclick="cuartotoggle();"
+        >
+          <div class="linea-menu"></div>
+          <div class="linea-menu"></div>
+          <div class="linea-menu"></div>
+        </label>
+        <label
+          id="quinta-etiqueta"
+          for="side-menu-switch"
+          onclick="quintotoggle();"
+        >
+          <div class="linea-menu"></div>
+          <div class="linea-menu"></div>
+          <div class="linea-menu"></div>
+        </label>
+        <label
+          id="sexta-etiqueta"
+          for="side-menu-switch"
+          onclick="sextotoggle();"
+        >
+          <div class="linea-menu"></div>
+          <div class="linea-menu"></div>
+          <div class="linea-menu"></div>
+        </label>
+        <label
+          id="septima-etiqueta"
+          for="side-menu-switch"
+          onclick="septimotoggle();"
+        >
+          <div class="linea-menu"></div>
+          <div class="linea-menu"></div>
+          <div class="linea-menu"></div>
+        </label>
+        <label
+          id="octava-etiqueta"
+          for="side-menu-switch"
+          onclick="octavotoggle();"
+        >
+          <div class="linea-menu"></div>
+          <div class="linea-menu"></div>
+          <div class="linea-menu"></div>
+        </label>
+      </div>
+
+      <div id="notas">
+        <div id="tabla">
+          <div id="cabecera-tabla">
+            <div>CURSO</div>
+            <div>ASIGNATURA</div>
+            <div>NOTA</div>
+          </div>
+          <div id="cuerpo-tabla">
+            <div class="fila-uno">
+              <div></div>
+              <div></div>
+              <div></div>
             </div>
-            <div id="perfil"> <img src="../imagenesEcuela/usuario.png" /> </div>
-
-        </header>
-
-        <input type="checkbox" name="" id="side-menu-switch" />
-
-        <div class="side-menu">
-            <nav id="menuflex">
-                <ul>
-                    <li> <a href="../login/index.html">LOG IN</a></li>
-                    <li> <a href="#">INICIO</a></li>
-                    <li> <a href="#">PERFIL</a></li>
-                </ul>
-            </nav>
-            <label for="side-menu-switch" onclick="toggle();">
-                <div class="linea-menu"></div>
-                <div class="linea-menu"></div>
-                <div class="linea-menu"></div>
-
-
-
-            </label>
+            <div class="fila-dos">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <div class="fila-tres">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <div class="fila-dos">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <div class="fila-tres">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <div class="fila-dos">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <div class="fila-tres">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <div class="fila-dos">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <div class="fila-tres">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <div class="fila-dos">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <div class="fila-tres">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+          </div>
         </div>
 
-        <div id="notas">
-            <div id=tabla>
-                <div class="fila primera">
-                    <div>CURSP</div>
-                    <div>ASIGNATURA</div>
-                    <div>NOTA</div>
-
-                </div>
-                <div class="fila segunda">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-
-
-                </div>
-                <div class="fila tercera">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-
-                </div>
-                <div class="fila cuarta">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="fila tercera">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-
-                </div>
-                <div class="fila cuarta">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                
-                <div class="fila tercera">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-
-                </div>
-                <div class="fila cuarta">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                
-                <div class="fila tercera">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-
-                </div>
-                <div class="fila cuarta">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                
-                <div class="fila tercera">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-
-                </div>
-                <div class="fila cuarta">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                
-                
-
-
-
-            </div>
-
-            <div id=caja>
-                <div id="media">
-                    <div>NOTA MEDIA</div>
-                    <div role="progreso" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="--value: 90"></div>
-                    
-                </div>
-                <div id="porcentaje">
-                    <div>PORCENTAJE</div>
-                    <div  role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100" style="--value: 67"></div>
-                </div>
-            </div>
-
-            
-            <div id=fondo>
-              
-            </div>
-
-          
-
-
-
-
-
-
+        <div id="media-porcentaje">
+          <div id="media">
+            <div >NOTA MEDIA</div>
+            <div
+              role="progreso"
+              aria-valuenow="100"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="--value: 90"
+            ></div>
+          </div>
+          <div class="circulo" id="porcentaje">
+            <div>PORCENTAJE</div>
+            <div
+              role="progressbar"
+              aria-valuenow="67"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="--value: 67"
+            ></div>
+          </div>
         </div>
+        <div id="media-porcentaje-fondo"></div>
+      </div>
 
+      <footer id="footer">
+        <nav id="menu-footer">
+          <ul>
+            <li>
+              <a href="../notificaciones/index.html"
+                ><img src="../imagenesEcuela/alert-26.png" />
+              </a>
+            </li>
+            <li>
+              <a><img src="../imagenesEcuela/home.png" /> </a>
+            </li>
+            <li>
+              <a><img src="../imagenesEcuela/lupa.png" /> </a>
+            </li>
+            <li>
+              <a><img src="../imagenesEcuela/sms.png" /> </a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
 
-        <footer id="footer">
-            <nav id="menu-footer">
-              <ul>
-                  <li><a href="../notificaciones/index.html"><img src="../imagenesEcuela/alert-26.png" />  </a></li>
-                  <li><a><img src="../imagenesEcuela/home.png" />  </a></li>
-                  <li><a><img src="../imagenesEcuela/lupa.png" />  </a></li>
-                  <li><a><img src="../imagenesEcuela/sms.png" />  </a></li>
-               
-              </ul>
-  
-            </nav>
-  
-          </footer>
-
-
-
-
-
+      <button id="boton-deslizar" onclick="deslizar();"></button>
     </main>
 
-
-
-    <script src="perfil.js"> </script>
-</body>
-
+    <script src="perfil.js"></script>
+  </body>
 </html>

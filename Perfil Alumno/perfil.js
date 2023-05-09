@@ -1,12 +1,68 @@
 
 
+
+
 function deslizar() {
-  var contenido = document.getElementById("media-porcentaje-dos");
-  if (contenido.style.transform === "translateX(18rem)") {
-    contenido.style.transform = "translateX(0rem)";
+  var contenido = document.getElementById("media-porcentaje");
+  if (contenido.style.opacity === "1") {
+    contenido.style.opacity = "0";
   } else {
-    contenido.style.transform = "translateX(18rem)";
+    contenido.style.opacity= "1";
   }
+  var contenido = document.getElementById("media-porcentaje-fondo");
+  if (contenido.style.opacity === "1") {
+    contenido.style.opacity = "0";
+  } else {
+    contenido.style.opacity= "1";
+  }
+  
+
+  
+
+
+
+  var contenido = document.getElementById("tabla");
+  if (contenido.style.width === "60%") {
+    contenido.style.width = "75%";
+  } else {
+    contenido.style.width= "60%";
+  }
+  if (contenido.style.marginLeft === "8%") {
+    contenido.style.marginLeft = "12%";
+  } else {
+    contenido.style.marginLeft = "8%";
+  }
+
+  var contenido = document.getElementById("menu-footer");
+
+  if (contenido.style.marginLeft === "12%") {
+    contenido.style.marginLeft = "20%";
+  } else {
+    contenido.style.marginLeft = "12%";
+  }
+
+  if (contenido.style.width === "50%") {
+    contenido.style.width = "60%";
+  } else {
+    contenido.style.width = "50%";
+  }
+
+  
+  var contenido = document.getElementById("trece-etiqueta");
+  if (contenido.style.display === "none") {
+    contenido.style.display= "flex";
+  } else {
+    contenido.style.display = "none";
+  }
+
+  var contenido = document.getElementById("nombre");
+  if (contenido.style.marginRight === "18%") {
+    contenido.style.marginRight = "5%";
+  } else {
+    contenido.style.marginRight = "18%";
+  }
+
+  
 
 
 }
@@ -991,6 +1047,10 @@ function docetoggle() {
     contenido.style.marginLeft = "-10%";
   }
 
+
+
+
+
   ///////FOOTER/////////////
   var contenido = document.getElementById("menu-footer");
   if (contenido.style.display === "none") {
@@ -1025,17 +1085,123 @@ function docetoggle() {
       contenido.style.width = "40%";
     }
   
+}
+
+////////////////////////////////
+////////////////////////////////
+/////////////////////////////////
+
+function trecetoggle() {
+
+  ///////TABLA/////////////
+  var contenido = document.getElementById("tabla");
+  if (contenido.style.marginLeft === "-30%") {
+    contenido.style.marginLeft = "12%";
+  } else {
+    contenido.style.marginLeft = "-30%";
+  }
+
+
+
+
+
+  ///////FOOTER/////////////
+  var contenido = document.getElementById("menu-footer");
+  if (contenido.style.display === "none") {
+    contenido.style.display = "flex";
+  } else {
+    contenido.style.display = "none";
+  }
+
+    ////////////NOMBRE/////////////
+
+    var contenido = document.getElementById("nombre");
+  if (contenido.style.display === "none") {
+    contenido.style.display = "flex";
+  } else {
+    contenido.style.display = "none";
+  }
+
+
+    ///MEDIA-PORCENTAJE-FONDO////
+
+
+    var contenido = document.getElementById("media-porcentaje-fondo");
+    if (contenido.style.width === "50%") {
+      contenido.style.width = "25%";
+    } else {
+      contenido.style.width = "50%";
+    }
+    var contenido = document.getElementById("media-porcentaje-fondo");
+    if (contenido.style.opacity === "1") {
+      contenido.style.opacity = "0";
+    } else {
+      contenido.style.opacity= "1";
+    }
+
+    ////////////////PERFIL///////////
+
+    var contenido = document.getElementById("perfil");
+    if (contenido.style.marginRight === "-50rem") {
+      contenido.style.marginRight = "-1%";
+    } else {
+      contenido.style.marginRight = "-50rem";
+    }
+
+    /////////BOTON///////////
+    var contenido = document.getElementById("boton-deslizar");
+    if (contenido.style.display === "none") {
+      contenido.style.display= "flex";
+    } else {
+      contenido.style.display = "none";
+    }
+
+
+
+
+
+  
   
 
-   
-
-
-
-
-
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

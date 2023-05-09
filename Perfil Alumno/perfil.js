@@ -12,7 +12,7 @@ function deslizar() {
 }
 
 
-function toggle() {
+function primertoggle() {
   ///////TABLA/////////////
   var contenido = document.getElementById("tabla");
   if (contenido.style.width === "45%") {

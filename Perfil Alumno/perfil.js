@@ -480,10 +480,10 @@ function septimotoggle() {
   } else {
     contenido.style.width = "45%";
   }
-  if (contenido.style.marginLeft === "35.2%") {
+  if (contenido.style.marginLeft === "35.3%") {
     contenido.style.marginLeft = "9%";
   } else {
-    contenido.style.marginLeft = "35.2%";
+    contenido.style.marginLeft = "35.3%";
   }
   if (contenido.style.marginTop === "7%") {
     contenido.style.marginTop = "5%";
@@ -615,7 +615,7 @@ function octavotoggle() {
 
   var contenido = document.getElementById("nombre");
   if (contenido.style.marginRight === "-7%") {
-    contenido.style.marginRight = "15%";
+    contenido.style.marginRight = "20%";
   } else {
     contenido.style.marginRight = "-7%";
   }
@@ -634,7 +634,7 @@ function octavotoggle() {
   } else {
     contenido.style.marginRight = "-50rem";
   }
-  
+
   var contenido = document.getElementById("media-porcentaje-fondo");
   if (contenido.style.marginRight === "-100rem") {
     contenido.style.marginRight = "0rem";
@@ -644,10 +644,738 @@ function octavotoggle() {
 
 
 
- 
+
 
 
 }
+
+
+////////////////////////////////
+////////////////////////////////
+/////////////////////////////////
+
+function novenotoggle() {
+  ///////TABLA/////////////
+  var contenido = document.getElementById("tabla");
+  if (contenido.style.width === "45%") {
+    contenido.style.width = "55%";
+  } else {
+    contenido.style.width = "45%";
+  }
+  if (contenido.style.marginLeft === "45%") {
+    contenido.style.marginLeft = "10%";
+  } else {
+    contenido.style.marginLeft = "45%";
+  }
+  if (contenido.style.marginTop === "7%") {
+    contenido.style.marginTop = "10%";
+  } else {
+    contenido.style.marginTop = "7%";
+  }
+
+  if (contenido.style.height === "65%") {
+    contenido.style.height = "65%";
+  } else {
+    contenido.style.height = "65%";
+  }
+
+
+
+
+  //////////FOOTER////////////////////
+
+  var contenido = document.getElementById("menu-footer");
+  if (contenido.style.width === "40%") {
+    contenido.style.width = "45%";
+  } else {
+    contenido.style.width = "40%";
+  }
+
+  var contenido = document.getElementById("menu-footer");
+  if (contenido.style.height === "60%") {
+    contenido.style.height = "50%";
+  } else {
+    contenido.style.height = "60%";
+  }
+
+
+
+  var contenido = document.getElementById("menu-footer");
+  if (contenido.style.marginRight === "0%") {
+    contenido.style.marginRight = "0%";
+  } else {
+    contenido.style.marginRight = "0%";
+  }
+
+  var contenido = document.getElementById("menu-footer");
+  if (contenido.style.marginLeft === "48%") {
+    contenido.style.marginLeft = "15%";
+  } else {
+    contenido.style.marginLeft = "48%";
+  }
+
+  ////////////NOMBRE/////////////
+
+  var contenido = document.getElementById("nombre");
+  if (contenido.style.marginRight === "-11%") {
+    contenido.style.marginRight = "20%";
+  } else {
+    contenido.style.marginRight = "-11%";
+  }
+  var contenido = document.getElementById("nombre");
+  if (contenido.style.fontSize === "60%") {
+    contenido.style.fontSize = "80%";
+  } else {
+    contenido.style.fontSize = "60%";
+  }
+
+  ///MEDIA-PORCENTAJE////
+
+  var contenido = document.getElementById("media-porcentaje");
+  if (contenido.style.marginRight === "-50rem") {
+    contenido.style.marginRight = "0rem";
+  } else {
+    contenido.style.marginRight = "-50rem";
+  }
+
+  var contenido = document.getElementById("media-porcentaje-fondo");
+  if (contenido.style.marginRight === "-100rem") {
+    contenido.style.marginRight = "0rem";
+  } else {
+    contenido.style.marginRight = "-100rem";
+  }
+
+
+
+
+
+
+}
+
+
+////////////////////////////////
+////////////////////////////////
+/////////////////////////////////
+
+function decimotoggle() {
+  ///////TABLA/////////////
+  var contenido = document.getElementById("tabla");
+  if (contenido.style.width === "45%") {
+    contenido.style.width = "55%";
+  } else {
+    contenido.style.width = "45%";
+  }
+  if (contenido.style.marginLeft === "48%") {
+    contenido.style.marginLeft = "10%";
+  } else {
+    contenido.style.marginLeft = "48%";
+  }
+  if (contenido.style.marginTop === "7%") {
+    contenido.style.marginTop = "10%";
+  } else {
+    contenido.style.marginTop = "7%";
+  }
+
+  if (contenido.style.height === "65%") {
+    contenido.style.height = "65%";
+  } else {
+    contenido.style.height = "65%";
+  }
+
+
+
+
+  //////////FOOTER////////////////////
+
+  var contenido = document.getElementById("menu-footer");
+  if (contenido.style.width === "40%") {
+    contenido.style.width = "45%";
+  } else {
+    contenido.style.width = "40%";
+  }
+
+  var contenido = document.getElementById("menu-footer");
+  if (contenido.style.height === "60%") {
+    contenido.style.height = "50%";
+  } else {
+    contenido.style.height = "60%";
+  }
+
+
+
+  var contenido = document.getElementById("menu-footer");
+  if (contenido.style.marginRight === "0%") {
+    contenido.style.marginRight = "0%";
+  } else {
+    contenido.style.marginRight = "0%";
+  }
+
+  var contenido = document.getElementById("menu-footer");
+  if (contenido.style.marginLeft === "50%") {
+    contenido.style.marginLeft = "15%";
+  } else {
+    contenido.style.marginLeft = "50%";
+  }
+
+  ////////////NOMBRE/////////////
+
+  var contenido = document.getElementById("nombre");
+  if (contenido.style.marginRight === "-17%") {
+    contenido.style.marginRight = "20%";
+  } else {
+    contenido.style.marginRight = "-17%";
+  }
+  var contenido = document.getElementById("nombre");
+  if (contenido.style.fontSize === "70%") {
+    contenido.style.fontSize = "80%";
+  } else {
+    contenido.style.fontSize = "70%";
+  }
+
+  ///MEDIA-PORCENTAJE////
+
+  var contenido = document.getElementById("media-porcentaje");
+  if (contenido.style.marginRight === "-50rem") {
+    contenido.style.marginRight = "0rem";
+  } else {
+    contenido.style.marginRight = "-50rem";
+  }
+
+  var contenido = document.getElementById("media-porcentaje-fondo");
+  if (contenido.style.marginRight === "-100rem") {
+    contenido.style.marginRight = "0rem";
+  } else {
+    contenido.style.marginRight = "-100rem";
+  }
+
+  ///PERFIL////
+
+  var contenido = document.getElementById("perfil");
+  if (contenido.style.marginRight === "-50rem") {
+    contenido.style.marginRight = "1.5rem";
+  } else {
+    contenido.style.marginRight = "-50rem";
+  }
+
+
+
+
+
+
+
+}
+
+////////////////////////////////
+////////////////////////////////
+/////////////////////////////////
+
+function oncetoggle() {
+  ///////TABLA/////////////
+  var contenido = document.getElementById("tabla");
+  if (contenido.style.width === "45%") {
+    contenido.style.width = "55%";
+  } else {
+    contenido.style.width = "45%";
+  }
+  if (contenido.style.marginLeft === "50%") {
+    contenido.style.marginLeft = "10%";
+  } else {
+    contenido.style.marginLeft = "50%";
+  }
+  if (contenido.style.marginTop === "7%") {
+    contenido.style.marginTop = "10%";
+  } else {
+    contenido.style.marginTop = "7%";
+  }
+
+  if (contenido.style.height === "65%") {
+    contenido.style.height = "65%";
+  } else {
+    contenido.style.height = "65%";
+  }
+
+
+
+
+  //////////FOOTER////////////////////
+
+  var contenido = document.getElementById("menu-footer");
+  if (contenido.style.width === "40%") {
+    contenido.style.width = "45%";
+  } else {
+    contenido.style.width = "40%";
+  }
+
+  var contenido = document.getElementById("menu-footer");
+  if (contenido.style.height === "60%") {
+    contenido.style.height = "50%";
+  } else {
+    contenido.style.height = "60%";
+  }
+
+
+
+  var contenido = document.getElementById("menu-footer");
+  if (contenido.style.marginRight === "0%") {
+    contenido.style.marginRight = "0%";
+  } else {
+    contenido.style.marginRight = "0%";
+  }
+
+  var contenido = document.getElementById("menu-footer");
+  if (contenido.style.marginLeft === "53%") {
+    contenido.style.marginLeft = "15%";
+  } else {
+    contenido.style.marginLeft = "53%";
+  }
+
+  ////////////NOMBRE/////////////
+
+  var contenido = document.getElementById("nombre");
+  if (contenido.style.marginRight === "-18%") {
+    contenido.style.marginRight = "20%";
+  } else {
+    contenido.style.marginRight = "-18%";
+  }
+  var contenido = document.getElementById("nombre");
+  if (contenido.style.fontSize === "60%") {
+    contenido.style.fontSize = "80%";
+  } else {
+    contenido.style.fontSize = "60%";
+  }
+
+  ///MEDIA-PORCENTAJE////
+
+  var contenido = document.getElementById("media-porcentaje");
+  if (contenido.style.marginRight === "-50rem") {
+    contenido.style.marginRight = "0rem";
+  } else {
+    contenido.style.marginRight = "-50rem";
+  }
+
+  var contenido = document.getElementById("media-porcentaje-fondo");
+  if (contenido.style.marginRight === "-100rem") {
+    contenido.style.marginRight = "0rem";
+  } else {
+    contenido.style.marginRight = "-100rem";
+  }
+
+  ///PERFIL////
+
+  var contenido = document.getElementById("perfil");
+  if (contenido.style.marginRight === "-50rem") {
+    contenido.style.marginRight = "1.5rem";
+  } else {
+    contenido.style.marginRight = "-50rem";
+  }
+
+
+
+
+
+
+
+}
+
+////////////////////////////////
+////////////////////////////////
+/////////////////////////////////
+
+function docetoggle() {
+
+  ///////TABLA/////////////
+  var contenido = document.getElementById("tabla");
+  if (contenido.style.marginLeft === "-10%") {
+    contenido.style.marginLeft = "10%";
+  } else {
+    contenido.style.marginLeft = "-10%";
+  }
+
+  ///////FOOTER/////////////
+  var contenido = document.getElementById("menu-footer");
+  if (contenido.style.display === "none") {
+    contenido.style.display = "flex";
+  } else {
+    contenido.style.display = "none";
+  }
+
+    ////////////NOMBRE/////////////
+
+    var contenido = document.getElementById("nombre");
+  if (contenido.style.display === "none") {
+    contenido.style.display = "flex";
+  } else {
+    contenido.style.display = "none";
+  }
+
+
+    ///MEDIA-PORCENTAJE////
+
+    var contenido = document.getElementById("media-porcentaje");
+    if (contenido.style.width === "40%") {
+      contenido.style.width = "25%";
+    } else {
+      contenido.style.width = "40%";
+    }
+
+    var contenido = document.getElementById("media-porcentaje-fondo");
+    if (contenido.style.width === "40%") {
+      contenido.style.width = "25%";
+    } else {
+      contenido.style.width = "40%";
+    }
+  
+  
+
+   
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

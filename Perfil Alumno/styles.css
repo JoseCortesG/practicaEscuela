@@ -31,7 +31,7 @@ body {
   flex-direction: row;
   justify-content: end;
   align-items: center;
-  z-index: 1;
+  z-index: 3;
 }
 
 #nombre {
@@ -55,7 +55,6 @@ body {
   top: 0;
   margin-right: 3.5%;
   transition: 0.5s;
-
 }
 
 #perfil img {
@@ -75,7 +74,7 @@ body {
   flex-flow: column nowrap;
   position: absolute;
   left: -21rem;
-  z-index: 1;
+  z-index: 4;
   transition: 0.5s;
 }
 
@@ -141,7 +140,6 @@ body {
   text-align: center;
   font-size: 10px;
   border-radius: 0 10px 10px 0;
-  
 }
 
 /*ORDENADOR CASA*/
@@ -312,7 +310,6 @@ body {
   text-align: center;
   font-size: 10px;
   border-radius: 0 10px 10px 0;
-
 }
 
 #once-etiqueta {
@@ -351,7 +348,6 @@ body {
   text-align: center;
   font-size: 10px;
   border-radius: 0 10px 10px 0;
-
 }
 
 #trece-etiqueta {
@@ -371,9 +367,7 @@ body {
   text-align: center;
   font-size: 10px;
   border-radius: 0 10px 10px 0;
-
 }
-
 
 #side-menu-switch {
   position: absolute;
@@ -383,17 +377,12 @@ body {
   transform: translateX(100%);
 }
 
-.burguer{
+.burguer {
   width: 80%;
   height: 10%;
   background-color: #ffffff;
   border-radius: 5px;
-  
-
 }
-
-
-
 
 /*///////////////NOTAS/////////////*/
 
@@ -438,16 +427,13 @@ body {
   margin: 0.2%;
   background-color: #3f3f3f;
   color: #ffffff;
- 
 }
 
-#cabecera-tabla div:hover{
+#cabecera-tabla div:hover {
   background-color: #201e1e;
-
 }
 
 #cuerpo-tabla {
-  
   width: 100%;
   height: 75%;
   display: flex;
@@ -456,9 +442,6 @@ body {
   justify-content: space-around;
   flex-wrap: wrap;
   overflow: auto;
-
-  
-
 }
 #tabla::-webkit-scrollbar {
   -webkit-appearance: none;
@@ -475,31 +458,27 @@ body {
   height: 33%;
   display: flex;
   flex-wrap: nowrap;
-
 }
 
 .fila-uno div {
-
   width: 33.34%;
   height: 100%;
   background-color: #e6e4e4;
   margin: 0.2%;
 }
 
-.fila-uno div:hover{
+.fila-uno div:hover {
   background-color: #ac0a0a;
   opacity: 80%;
-  
 }
 
 .fila-dos {
   width: 100%;
   height: 33%;
-  
+
   display: flex;
   flex-wrap: nowrap;
 }
-
 
 .fila-dos div {
   width: 33.34%;
@@ -508,20 +487,18 @@ body {
   margin: 0.2%;
 }
 
-.fila-dos div:hover{
+.fila-dos div:hover {
   background-color: #ac0a0a;
   opacity: 80%;
-  
 }
 
 .fila-tres {
   width: 100%;
   height: 33%;
- 
+
   display: flex;
   flex-wrap: nowrap;
   margin-bottom: 0.5%;
-
 }
 .fila-tres div {
   width: 33.34%;
@@ -530,13 +507,10 @@ body {
   margin: 0.2%;
 }
 
-.fila-tres div:hover{
+.fila-tres div:hover {
   background-color: #ac0a0a;
   opacity: 80%;
-  
 }
-
-
 
 #media-porcentaje {
   display: flex;
@@ -558,7 +532,6 @@ body {
   border: 2px solid rgba(173, 171, 175, 0.3);
   z-index: 1;
   transition: 1s;
- 
 }
 
 #media-porcentaje-fondo {
@@ -581,9 +554,7 @@ body {
   border: 2px solid rgba(173, 171, 175, 0.3);
   z-index: 0;
   transition: 0.5s;
- 
 }
-
 
 #boton-deslizar {
   position: absolute;
@@ -759,7 +730,7 @@ body {
   --percentage: var(--value);
   --primary: #369;
   --secondary: #adf;
-  --size: 300px;
+  --size: 15rem;
   animation: progress 2s 0.5s forwards;
   width: var(--size);
   aspect-ratio: 1;
@@ -867,7 +838,7 @@ body {
   --percentage: var(--value);
   --primary: #369;
   --secondary: #adf;
-  --size: 200px;
+  --size: 15rem;
   animation: progress 2s 0.5s forwards;
   width: var(--size);
   aspect-ratio: 1;
@@ -907,22 +878,29 @@ body {
 
 @media only screen and (max-width: 2000px) {
   #primera-etiqueta {
+    margin-top: 2.5rem;
     display: flex;
   }
 
-
   #tabla {
-    margin-left: 9%;
+    margin-left: 8%;
+  }
+
+  #nombre {
+    margin-right: 14%;
+  }
+  #perfil {
+    justify-content: end;
+    margin-right: 5%;
   }
   #menu-footer {
-    margin-right: 16%;
-  }
-  #nombre {
-    margin-right: 11%;
+    border-radius: 5px;
+    margin-right: 20%;
+    margin-left: 0%;
+    width: 50%;
+    height: 60%;
   }
 }
-
-
 
 @media only screen and (max-width: 1660px) {
   #primera-etiqueta {
@@ -941,6 +919,14 @@ body {
   #nombre {
     margin-right: 11%;
   }
+
+  [role="progreso"] {
+    --size: 12rem;
+  }
+  [role="progressbar"] {
+   
+    --size: 12rem;}
+  
 }
 
 @media only screen and (max-width: 1300px) {
@@ -951,6 +937,13 @@ body {
     display: flex;
     margin-top: 1.3rem;
   }
+  [role="progreso"] {
+    --size: 10rem;
+  }
+  [role="progressbar"] {
+   
+    --size: 10rem;}
+  
 }
 
 @media only screen and (max-width: 1120px) {
@@ -961,6 +954,9 @@ body {
     display: flex;
     margin-top: 1.3rem;
   }
+  [role="progressbar"] {
+   
+    --size: 8rem;}
 }
 
 @media only screen and (max-width: 1025px) {
@@ -1021,7 +1017,6 @@ body {
     margin-top: 10%;
   }
 
-
   #footer {
     justify-content: start;
   }
@@ -1035,10 +1030,6 @@ body {
 
   #media-porcentaje {
     width: 25%;
-    
-    
-    
-
   }
 
   #media-porcentaje-fondo {
@@ -1054,8 +1045,6 @@ body {
     display: flex;
     margin-top: 1.5rem;
   }
-
- 
 }
 
 @media only screen and (max-width: 790px) {
@@ -1070,13 +1059,10 @@ body {
     right: -65px;
   }
 
-  #perfil{
+  #perfil {
     margin-right: 1.5rem;
     width: 20%;
-    
   }
-
- 
 }
 
 @media only screen and (max-width: 720px) {
@@ -1090,10 +1076,6 @@ body {
     height: 55px;
     right: -65px;
   }
-
-
-
- 
 }
 
 @media only screen and (max-width: 700px) {
@@ -1109,42 +1091,32 @@ body {
   }
 
   #media-porcentaje {
-
     transition: 2s;
     width: 25%;
-   
   }
 
-  
   #media-porcentaje-fondo {
-
-    transition: 0.5s;
+    transition: 3s;
     width: 25%;
-   
+    z-index: 0;
   }
 
-  #tabla{
-    transition: 1s;
+  #tabla {
+    transition: 2s;
+    z-index: 5;
   }
 
-  
-#cabecera-tabla {
- 
-  font-size: 80%;
+  #cabecera-tabla {
+    font-size: 80%;
+  }
 }
-
-
-
- 
-}
-
 
 @media only screen and (max-width: 600px) {
-  #container{
+  #container {
     overflow-x: hidden;
   }
 
-  #notas{
+  #notas {
     overflow-x: hidden;
   }
   #doce-etiqueta {
@@ -1158,32 +1130,24 @@ body {
     right: -65px;
   }
 
-  #boton-deslizar{
+  #boton-deslizar {
     display: flex;
     margin-right: 0rem;
     opacity: 0;
-   
+    z-index: 4;
   }
 
   #media-porcentaje {
-
     transition: 3s;
     width: 25%;
     opacity: 0;
-   
-
-   
+    z-index: 1;
   }
   #media-porcentaje-fondo {
-
     transition: 2s;
     width: 25%;
     opacity: 0;
-     
-   
-    
-
-   
+    z-index: 0;
   }
   #tabla {
     margin-top: 20%;
@@ -1192,25 +1156,20 @@ body {
     width: 75%;
     height: 60%;
     transition: 1s;
-
+    z-index: 1;
   }
 
   #menu-footer {
-
-   
     margin-right: 13%;
     margin-left: 20%;
     width: 60%;
     height: 50%;
- 
   }
 
   #nombre {
-  
     width: 88%;
     margin-right: 5%;
     font-size: 60%;
-
   }
 
   #perfil {
@@ -1224,23 +1183,5 @@ body {
     top: 0;
     margin-right: -1%;
     transition: 0.5s;
-  
   }
-  
-
-
-
-
-
-
-
-
- 
 }
-
-
-
-
-
-
-

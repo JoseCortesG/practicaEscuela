@@ -54,16 +54,16 @@ VALUES('Geografia',1);
 INSERT INTO 
 
 INSERT INTO cursos(nombre,id_a1,id_a2,id_a3,id_a4,id_a5,id_a6)
-VALUES('primeroEso',1,2,3,4,5,6)
+VALUES('primero_eso',1,2,3,4,5,6)
 
 INSERT INTO cursos(nombre,id_a1,id_a2,id_a3,id_a4,id_a6,id_a8,)
-VALUES('segundoEso',1,2,3,4,6,8)
+VALUES('segundo_eso',1,2,3,4,6,8)
 
 INSERT INTO cursos(nombre,id_a2,id_a3,id_a5,id_a6,id_a7,id_a8)
-VALUES('terceroEso',2,3,5,6,7,8)
+VALUES('tercero_eso',2,3,5,6,7,8)
 
 INSERT INTO cursos(nombre,id_a1,id_a2,id_a4,id_a5,id_a6,id_a7)
-VALUES('cuartoEso',1,2,4,5,6,7)
+VALUES('cuartoso',1,2,4,5,6,7)
 
 
 /* NOTA */

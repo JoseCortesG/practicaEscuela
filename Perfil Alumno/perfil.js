@@ -77,7 +77,7 @@ function primertoggle() {
     contenido.style.width = "45%";
   }
   if (contenido.style.marginLeft === "26%") {
-    contenido.style.marginLeft = "10%";
+    contenido.style.marginLeft = "8%";
   } else {
     contenido.style.marginLeft = "26%";
   }
@@ -100,21 +100,21 @@ function primertoggle() {
 
   var contenido = document.getElementById("menu-footer");
   if (contenido.style.width === "40%") {
-    contenido.style.width = "60%";
+    contenido.style.width = "50%";
   } else {
     contenido.style.width = "40%";
   }
 
   var contenido = document.getElementById("menu-footer");
   if (contenido.style.height === "60%") {
-    contenido.style.height = "80%";
+    contenido.style.height = "60%";
   } else {
     contenido.style.height = "60%";
   }
 
   var contenido = document.getElementById("menu-footer");
   if (contenido.style.marginRight === "3%") {
-    contenido.style.marginRight = "13%";
+    contenido.style.marginRight = "20%";
   } else {
     contenido.style.marginRight = "3%";
   }
@@ -122,10 +122,10 @@ function primertoggle() {
   ////////////NOMBRE/////////////
 
   var contenido = document.getElementById("nombre");
-  if (contenido.style.marginRight === "7%") {
-    contenido.style.marginRight = "15%";
+  if (contenido.style.marginRight === "5%") {
+    contenido.style.marginRight = "14%";
   } else {
-    contenido.style.marginRight = "7%";
+    contenido.style.marginRight = "5%";
   }
 }
 
@@ -1041,10 +1041,10 @@ function docetoggle() {
 
   ///////TABLA/////////////
   var contenido = document.getElementById("tabla");
-  if (contenido.style.marginLeft === "-10%") {
+  if (contenido.style.marginLeft === "-30%") {
     contenido.style.marginLeft = "10%";
   } else {
-    contenido.style.marginLeft = "-10%";
+    contenido.style.marginLeft = "-30%";
   }
 
 
@@ -1079,10 +1079,10 @@ function docetoggle() {
     }
 
     var contenido = document.getElementById("media-porcentaje-fondo");
-    if (contenido.style.width === "40%") {
+    if (contenido.style.width === "60%") {
       contenido.style.width = "25%";
     } else {
-      contenido.style.width = "40%";
+      contenido.style.width = "60%";
     }
   
 }
@@ -1095,11 +1095,20 @@ function trecetoggle() {
 
   ///////TABLA/////////////
   var contenido = document.getElementById("tabla");
-  if (contenido.style.marginLeft === "-30%") {
+  if (contenido.style.marginLeft === "-150%") {
     contenido.style.marginLeft = "12%";
   } else {
-    contenido.style.marginLeft = "-30%";
+    contenido.style.marginLeft = "-150%";
   }
+
+  var contenido = document.getElementById("tabla");
+  if (contenido.style.transition === "2s") {
+    contenido.style.transition = "1s";
+  } else {
+    contenido.style.transition = "2s";
+  }
+
+
 
 
 
